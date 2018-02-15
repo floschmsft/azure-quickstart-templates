@@ -16,6 +16,7 @@
         },
         "scheduleRunTimes": {
             "type": "array",
+            "defaultValue": "03:00",
             "metadata": {
                 "description": "Times in day when backup should be triggered. e.g. 01:00, 13:00. This will be used in LTR too for daily, weekly, monthly and yearly backup."
             }
